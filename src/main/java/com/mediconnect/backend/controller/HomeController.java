@@ -9,6 +9,6 @@ public class HomeController {
 
     @GetMapping("/")
     public ResponseEntity<String> home() {
-        return ResponseEntity.ok("MediConnect Backend API is running successfully!");
+        return ResponseEntity.ok("MediConnect Backend API is running successfully!......");
     }
 }
